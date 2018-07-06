@@ -16,10 +16,10 @@ namespace LMS.Controllers
         }
 
         [HttpPost]
-        public ActionResult login(Tbl_Users u)
+        public ActionResult login(string username,string password)
         {
             LmsDB l = new LmsDB();
-            var q = from a in l.Tbl_Users where a.username == u.username && a.password == u.password select a;
+            var q = (from a in l.Tbl_Users where a.username == username && a.password == password select a).SingleOrDefault();
             if(q != null)
             {
                 return RedirectToAction("Index");
