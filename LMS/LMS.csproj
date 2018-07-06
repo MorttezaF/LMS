@@ -93,6 +93,9 @@
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\custom.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\1.jpg" />
+    <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\3.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\js\bootstrap.js" />
     <Content Include="Scripts\js\bootstrap.min.js" />
@@ -126,7 +129,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
